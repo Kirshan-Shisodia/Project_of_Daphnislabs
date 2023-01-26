@@ -16,7 +16,7 @@ const Home = () => {
         <div>
             < Navbar setSort = {setSort} setSearchKeyWord = {setSearchKeyWord} />
             < Products sort = {sort} searchKeyWord = {searchKeyWord} />
-            < FloationgButtonFunction />
+                {/* < FloationgButtonFunction /> */}
             {/* <FloatingButton>
         <Item
             imgSrc={ButtonImage}
